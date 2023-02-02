@@ -9,7 +9,7 @@ As building a mySQL server, I can easily recognize them with the organised data 
 ## Api/Language used in project
 
 1. Apify Google Shopping Scraper - Done web crawling and saved the data in csv format (o)
-2. Naver developer API - Done web crawling from naver and saved the data in csv format (x)
+2. Naver Developers API - Done web crawling from naver and saved the data in csv format (x)
 3. Python - extract data needed from raw data and analyse the data to get useful information (x)
 4. Mysql - Built a database server to manage the protein meal data easily (x)
 5.
