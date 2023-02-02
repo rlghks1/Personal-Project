@@ -9,9 +9,10 @@ As building a mySQL server, I can easily recognize them with the organised data 
 ## Api/Language used in project
 
 1. Apify Google Shopping Scraper - Done web crawling and saved the data in csv format (o)
-2. Python - extract data needed from raw data and analyse the data to get useful information (x)
-3. Mysql - Built a database server to manage the protein meal data easily (x)
-4.
+2. Naver developer API - Done web crawling from naver and saved the data in csv format (x)
+3. Python - extract data needed from raw data and analyse the data to get useful information (x)
+4. Mysql - Built a database server to manage the protein meal data easily (x)
+5.
 
 ## What information I need to use & What information I don't need from raw data
 
