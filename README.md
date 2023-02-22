@@ -16,6 +16,23 @@ As building a mySQL server, I can easily recognize them with the organised data 
 
 ## What information I need to use & What information I don't need from raw data
 
+Google - description, merchantLink, merchantName, positionOnSearchPage, price, productDetails, productLink, productName, reviewsCount, reviewsScore, shoppingId
+
+information I need => description, merchantName, price, productDetails, productLink, productName, shoppingId  
+
+information I don't need => merchantLink, positionOnSearchPage, reviewsCount, reviewsScore  
+
+=>changed the order into productName, price, productDetails, productLink, description, merchantName(maker), productId
+
+Naver - title, link, image, lprice, hprice, mallName, productId, productType, brand, maker, category1, category2, category3, category4  
+
+information I need => title, link, image, lprice, hprice, mallName, productId, brand, maker  
+
+information I don't need => image, productType, category1, category2, category3, category4  
+
+=>changed the order into title, lprice, hprice, link, maker, brand, productId, image, mallName  
+
+* basically I persue to change the order into productName, price, productDetails, productLink, merchantName(maker), brand, productId
 
 ## ER Diagram
 
