@@ -36,4 +36,6 @@ information I don't need => image, productType, category1, category2, category3,
 
 ## ER Diagram
 
-## 
+## To Do
+1. completed to build MySQL Server but didn't convert and upload the csv file to sql format.
+2. need to compare and analyse the data from google and naver, then find common and different features or hopefully new features I couldn't discover yet.
