@@ -7,7 +7,11 @@ gData = gData.loc[:, ~gData.columns.isin(['merchantLink','positionOnSearchPage',
 
 # change the order into  productId, productName, price, productDetails, description, merchantName(maker)
 gData = gData.iloc[:,[6,5,2,3,0,1]]
-print(gData)
+gData.rename(columns = {'shoppingId':'productId'},inplace=True)
+#print(gData)
+print(gData.shape)
+for col in gData.columns:
+    print(col)
 
 # save the edited google data
 gData.to_csv('data_google.csv')
@@ -18,8 +22,10 @@ nData = pd.read_csv(path_to_file, encoding='euc-kr')
 nData = nData.loc[:, ~nData.columns.isin(['productType','category1','category2','category3','category4'])]
 
 # change the order into title, price, maker, brand, productId
-nData = nData.iloc[:,[6,0,1,8,7]]
+nData = nData.iloc[:,[6,0,3,1,8,7]]
 #print(nData)
+
+
 
 # save the edited naver data
 nData.to_csv('data_naver.csv')
