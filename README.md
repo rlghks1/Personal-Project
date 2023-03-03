@@ -48,4 +48,13 @@ information I don't need => image, productType, category1, category2, category3,
   => uploaded all data using MySql Import Wizard<br/><br/>
 2. Every product have own weight and price but I need to compare all products using unit price ($ per 100g) so I need to modify currency and weight to be same.
   => I'll do this as making SQL Query<br/><br/>
+
+** As Australian 1$ = Korean 880.16 won (03/03/23), I express the won in Au dollars based on this exchange rate.<br/><br/>
+
 3. need to compare and analyse the data from google and naver, then find common and different features or hopefully new features I couldn't discover yet.
+
+### Edit History<br/><br/>
+-> changed the currency Korean won to Australian dollar based on daily exchange rate on mySQL server.
+-> 
+
+
