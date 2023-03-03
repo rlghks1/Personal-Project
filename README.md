@@ -18,7 +18,7 @@ As building a mySQL server, I can easily recognize them with the organised data 
 
 Google - description, merchantLink, merchantName, positionOnSearchPage, price, productDetails, productLink, productName, reviewsCount, reviewsScore, shoppingId
 
-<span style="color:blue">information I need<\span> => description, merchantName, price, productDetails, productLink, productName, shoppingId  
+<span style="color:blue">information I need</span> => description, merchantName, price, productDetails, productLink, productName, shoppingId  
 
 information I don't need => merchantLink, positionOnSearchPage, reviewsCount, reviewsScore  
 
