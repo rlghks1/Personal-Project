@@ -54,7 +54,8 @@ information I don't need => image, productType, category1, category2, category3,
 3. need to compare and analyse the data from google and naver, then find common and different features or hopefully new features I couldn't discover yet.
 
 ### Edit History<br/><br/>
--> changed the currency Korean won to Australian dollar based on daily exchange rate on mySQL server.
--> 
+-> changed the currency Korean won to Australian dollar based on daily exchange rate on mySQL server.<br/><br/>
+-> <br/><br/>
+-> <br/><br/>
 
 
