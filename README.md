@@ -32,7 +32,7 @@ information I don't need => image, productType, category1, category2, category3,
 
 =>changed the order into title, lprice, hprice, link, maker, brand, productId, image, mallName  
 
-* basically I persue to change the order into productName, price, productDetails, productLink, merchantName(maker), brand, productId
+* basically I persue to change the order into **productName, price, productDetails, link, merchantName(maker), brand, productId**
 
 ## ER Diagram
 
