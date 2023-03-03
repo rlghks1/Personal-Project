@@ -14,31 +14,38 @@ As building a mySQL server, I can easily recognize them with the organised data 
 4. Mysql - Built a database server to manage the protein meal data easily (o)
 
 
-## What information I need to use & What information I don't need from raw data
+## What information I need to use & What information I don't need from raw data  
 
-Google - description, merchantLink, merchantName, positionOnSearchPage, price, productDetails, productLink, productName, reviewsCount, reviewsScore, shoppingId
 
-<span style="color:blue">information I need</span> => description, merchantName, price, productDetails, productLink, productName, shoppingId  
+**Google** - description, merchantLink, merchantName, positionOnSearchPage, price, productDetails, productLink, productName, reviewsCount, reviewsScore, shoppingId<br/><br/>  
 
-information I don't need => merchantLink, positionOnSearchPage, reviewsCount, reviewsScore  
+information I need => description, merchantName, price, productDetails, productLink, productName, shoppingId  
 
-=>changed the order into productName, price, productDetails, productLink, description, merchantName(maker), productId
+information I don't need => merchantLink, positionOnSearchPage, reviewsCount, reviewsScore<br/><br/>  
 
-Naver - title, link, image, lprice, hprice, mallName, productId, productType, brand, maker, category1, category2, category3, category4  
 
-<span style="color:blue">information I need</span> => title, link, image, lprice, hprice, mallName, productId, brand, maker  
+=>changed the order into productName, price, productDetails, productLink, description, merchantName(maker), productId<br/><br/>
 
-information I don't need => image, productType, category1, category2, category3, category4  
 
-=>changed the order into title, lprice, hprice, link, maker, brand, productId, image, mallName  
+**Naver** - title, link, image, lprice, hprice, mallName, productId, productType, brand, maker, category1, category2, category3, category4  <br/><br/>
 
-* basically I persue to change the order into **productName, price, productDetails, link, merchantName(maker), brand, productId**
 
-## ER Diagram
+information I need</span> => title, link, image, lprice, hprice, mallName, productId, brand, maker  
 
-## To Do
+information I don't need => image, productType, category1, category2, category3, category4<br/><br/>
+
+
+=>changed the order into title, lprice, hprice, link, maker, brand, productId, image, mallName<br/><br/>  
+
+
+==> basically I persue to change the order into **productName, price, productDetails, link, merchantName(maker), brand, productId**<br/><br/>
+
+## ER Diagram<br/><br/>
+
+## To Do<br/><br/>
+
 1. completed to build MySQL Server but didn't convert and upload the csv file to sql format.  
-  => uploaded all data using MySql Import Wizard
+  => uploaded all data using MySql Import Wizard<br/><br/>
 2. Every product have own weight and price but I need to compare all products using unit price ($ per 100g) so I need to modify currency and weight to be same.
-  => I'll do this as making SQL Query
-4. need to compare and analyse the data from google and naver, then find common and different features or hopefully new features I couldn't discover yet.
+  => I'll do this as making SQL Query<br/><br/>
+3. need to compare and analyse the data from google and naver, then find common and different features or hopefully new features I couldn't discover yet.
