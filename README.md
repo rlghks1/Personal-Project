@@ -55,7 +55,8 @@ information I don't need => image, productType, category1, category2, category3,
 
 ### Edit History<br/><br/>
 -> changed the currency Korean won to Australian dollar based on daily exchange rate on mySQL server.<br/><br/>
--> <br/><br/>
--> <br/><br/>
+-> delete powder products from googleprotein <br/><br/>
+-> change price data type to decimal for googleprotein <br/><br/>
+-> 
 
 
