@@ -9,16 +9,16 @@ As building a mySQL server, I can easily recognize them with the organised data 
 ## Api/Language used in project
 
 1. Apify Google Shopping Scraper - Done web crawling and saved the data in csv format (o)
-2. Naver Developers API - Done web crawling from naver and saved the data in csv format (x)
+2. Naver Developers API - Done web crawling from naver and saved the data in csv format (o)
 3. Python - extract data needed from raw data and analyse the data to get useful information (x)
-4. Mysql - Built a database server to manage the protein meal data easily (x)
-5.
+4. Mysql - Built a database server to manage the protein meal data easily (o)
+
 
 ## What information I need to use & What information I don't need from raw data
 
 Google - description, merchantLink, merchantName, positionOnSearchPage, price, productDetails, productLink, productName, reviewsCount, reviewsScore, shoppingId
 
-information I need => description, merchantName, price, productDetails, productLink, productName, shoppingId  
+<span style="color:blue">information I need<\span> => description, merchantName, price, productDetails, productLink, productName, shoppingId  
 
 information I don't need => merchantLink, positionOnSearchPage, reviewsCount, reviewsScore  
 
@@ -26,7 +26,7 @@ information I don't need => merchantLink, positionOnSearchPage, reviewsCount, re
 
 Naver - title, link, image, lprice, hprice, mallName, productId, productType, brand, maker, category1, category2, category3, category4  
 
-information I need => title, link, image, lprice, hprice, mallName, productId, brand, maker  
+<span style="color:blue">information I need</span> => title, link, image, lprice, hprice, mallName, productId, brand, maker  
 
 information I don't need => image, productType, category1, category2, category3, category4  
 
