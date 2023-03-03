@@ -37,5 +37,8 @@ information I don't need => image, productType, category1, category2, category3,
 ## ER Diagram
 
 ## To Do
-1. completed to build MySQL Server but didn't convert and upload the csv file to sql format.
-2. need to compare and analyse the data from google and naver, then find common and different features or hopefully new features I couldn't discover yet.
+1. completed to build MySQL Server but didn't convert and upload the csv file to sql format.  
+  => uploaded all data using MySql Import Wizard
+2. Every product have own weight and price but I need to compare all products using unit price ($ per 100g) so I need to modify currency and weight to be same.
+  => I'll do this as making SQL Query
+4. need to compare and analyse the data from google and naver, then find common and different features or hopefully new features I couldn't discover yet.
