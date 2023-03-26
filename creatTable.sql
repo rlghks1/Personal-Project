@@ -8,3 +8,7 @@ CREATE TABLE googleprotein (
     brand VARCHAR(255),
     PRIMARY KEY (productId)
 );
+
+UPDATE googleprotein
+SET price = (SELECT SUBSTRING_INDEX(price, ' +', 1)*1.1)
+where price like '%+%';
